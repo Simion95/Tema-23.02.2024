@@ -43,3 +43,28 @@
   text-align: center;
   height: 100vh;
 }
+
+
+.alert-maxim-message {
+  display: none;
+  background-color: rgb(240, 219, 231);
+  border-radius: 5px;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 520px;
+  height: 35px;
+  margin-top: 20px;
+}
+
+.alert-maxim-message > img {
+  width: 30px;
+  height: 25px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.alert-maxim-message > p {
+  color: rgb(129, 53, 53);
+}
+
