@@ -79,6 +79,7 @@ let impartire = () => {
 
 let resetare = () => {
     x = 0;
+    cifraCalculator.innerText = "0";
     cifraCalculator.style.removeProperty('color');
     cifraCalculator.style.removeProperty('font-size');
     mesajAlerta.style.display = 'none';
